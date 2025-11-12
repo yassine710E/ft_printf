@@ -6,15 +6,17 @@
 /*   By: ychabane <ychabane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 00:56:43 by ychabane          #+#    #+#             */
-/*   Updated: 2025/11/06 01:38:29 by ychabane         ###   ########.fr       */
+/*   Updated: 2025/11/07 09:29:27 by ychabane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 size_t	ft_strlen(const char *str)
 {
-	size_t i = 0;
+	size_t	i;
+
+	i = 0;
 	while (str[i])
 		i++;
 	return (i);

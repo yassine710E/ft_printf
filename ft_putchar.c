@@ -6,11 +6,11 @@
 /*   By: ychabane <ychabane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 00:59:51 by ychabane          #+#    #+#             */
-/*   Updated: 2025/11/06 02:34:37 by ychabane         ###   ########.fr       */
+/*   Updated: 2025/11/07 09:29:42 by ychabane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_putchar(char c)
 {
